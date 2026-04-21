@@ -1,0 +1,13 @@
+var structmomentum_1_1CalibrationConfig =
+[
+    [ "calibFrames", "structmomentum_1_1CalibrationConfig.html#ae70d6163d97996333cad8c41e9cb2883", null ],
+    [ "calibShape", "structmomentum_1_1CalibrationConfig.html#ad40270f7333bcd5671f8981e02092a41", null ],
+    [ "enforceFloorInFirstFrame", "structmomentum_1_1CalibrationConfig.html#a11e7eb7cbb3939b836025488fa891d22", null ],
+    [ "firstFramePoseConstraintSet", "structmomentum_1_1CalibrationConfig.html#a38bc2c5facf330b4c6155ff59bb40d22", null ],
+    [ "globalScaleOnly", "structmomentum_1_1CalibrationConfig.html#aedcf855e2bb8320f43defaf25d01847d", null ],
+    [ "greedySampling", "structmomentum_1_1CalibrationConfig.html#aa25ed2d4c69619b70b81bb614fb16fc1", null ],
+    [ "locatorsOnly", "structmomentum_1_1CalibrationConfig.html#a068c1a609ef7706a7d0736eff65bbd04", null ],
+    [ "majorIter", "structmomentum_1_1CalibrationConfig.html#a4458418ebc5673dae39aa10eb9be7151", null ],
+    [ "meshConstraintWeight", "structmomentum_1_1CalibrationConfig.html#a1c757ce38e164648cc6c0df434d25247", null ],
+    [ "targetHeightCm", "structmomentum_1_1CalibrationConfig.html#a461f629b9c8a31e552d4449a6b1d47cb", null ]
+];
