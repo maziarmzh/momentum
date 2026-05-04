@@ -4,6 +4,11 @@ var annotated_dup =
       [ "detail", "namespacemomentum_1_1detail.html", [
         [ "is_compatible_to_uniform_int_distribution", "structmomentum_1_1detail_1_1is__compatible__to__uniform__int__distribution.html", null ]
       ] ],
+      [ "fbx_internal", "namespacemomentum_1_1fbx__internal.html", [
+        [ "JointCurveSetup", "structmomentum_1_1fbx__internal_1_1JointCurveSetup.html", "structmomentum_1_1fbx__internal_1_1JointCurveSetup" ],
+        [ "MeshBlendShapeResult", "structmomentum_1_1fbx__internal_1_1MeshBlendShapeResult.html", "structmomentum_1_1fbx__internal_1_1MeshBlendShapeResult" ],
+        [ "SkeletonNodeResult", "structmomentum_1_1fbx__internal_1_1SkeletonNodeResult.html", "structmomentum_1_1fbx__internal_1_1SkeletonNodeResult" ]
+      ] ],
       [ "io_detail", "namespacemomentum_1_1io__detail.html", [
         [ "SectionContent", "classmomentum_1_1io__detail_1_1SectionContent.html", "classmomentum_1_1io__detail_1_1SectionContent" ],
         [ "SectionSegment", "structmomentum_1_1io__detail_1_1SectionSegment.html", "structmomentum_1_1io__detail_1_1SectionSegment" ]
@@ -30,6 +35,7 @@ var annotated_dup =
       [ "CharacterParametersT", "structmomentum_1_1CharacterParametersT.html", "structmomentum_1_1CharacterParametersT" ],
       [ "CharacterStateT", "structmomentum_1_1CharacterStateT.html", "structmomentum_1_1CharacterStateT" ],
       [ "CharacterT", "structmomentum_1_1CharacterT.html", "structmomentum_1_1CharacterT" ],
+      [ "CollisionDebugEntryT", "structmomentum_1_1CollisionDebugEntryT.html", "structmomentum_1_1CollisionDebugEntryT" ],
       [ "CollisionErrorFunctionStatelessT", "classmomentum_1_1CollisionErrorFunctionStatelessT.html", "classmomentum_1_1CollisionErrorFunctionStatelessT" ],
       [ "CollisionErrorFunctionT", "classmomentum_1_1CollisionErrorFunctionT.html", "classmomentum_1_1CollisionErrorFunctionT" ],
       [ "CollisionGeometryStateT", "structmomentum_1_1CollisionGeometryStateT.html", "structmomentum_1_1CollisionGeometryStateT" ],
@@ -41,6 +47,7 @@ var annotated_dup =
       [ "DistanceErrorFunctionT", "classmomentum_1_1DistanceErrorFunctionT.html", "classmomentum_1_1DistanceErrorFunctionT" ],
       [ "EigenStrongType", "structmomentum_1_1EigenStrongType.html", "structmomentum_1_1EigenStrongType" ],
       [ "ErrorFunctionDerivativesT", "structmomentum_1_1ErrorFunctionDerivativesT.html", "structmomentum_1_1ErrorFunctionDerivativesT" ],
+      [ "FbxBuilder", "classmomentum_1_1FbxBuilder.html", "classmomentum_1_1FbxBuilder" ],
       [ "FbxCoordSystemInfo", "structmomentum_1_1FbxCoordSystemInfo.html", "structmomentum_1_1FbxCoordSystemInfo" ],
       [ "FileSaveOptions", "structmomentum_1_1FileSaveOptions.html", "structmomentum_1_1FileSaveOptions" ],
       [ "FiniteDifferenceSequenceErrorFunctionT", "classmomentum_1_1FiniteDifferenceSequenceErrorFunctionT.html", "classmomentum_1_1FiniteDifferenceSequenceErrorFunctionT" ],
@@ -141,6 +148,7 @@ var annotated_dup =
       [ "ProjectionErrorFunctionT", "classmomentum_1_1ProjectionErrorFunctionT.html", "classmomentum_1_1ProjectionErrorFunctionT" ],
       [ "Random", "classmomentum_1_1Random.html", "classmomentum_1_1Random" ],
       [ "RefineConfig", "structmomentum_1_1RefineConfig.html", "structmomentum_1_1RefineConfig" ],
+      [ "RegionColorsView", "structmomentum_1_1RegionColorsView.html", "structmomentum_1_1RegionColorsView" ],
       [ "ResizeableMatrix", "classmomentum_1_1ResizeableMatrix.html", "classmomentum_1_1ResizeableMatrix" ],
       [ "RigidTransformNodeResult", "structmomentum_1_1RigidTransformNodeResult.html", "structmomentum_1_1RigidTransformNodeResult" ],
       [ "SDFColliderT", "structmomentum_1_1SDFColliderT.html", "structmomentum_1_1SDFColliderT" ],
@@ -175,6 +183,7 @@ var annotated_dup =
       [ "SubsetGaussNewtonSolverOptions", "structmomentum_1_1SubsetGaussNewtonSolverOptions.html", "structmomentum_1_1SubsetGaussNewtonSolverOptions" ],
       [ "SubsetGaussNewtonSolverT", "classmomentum_1_1SubsetGaussNewtonSolverT.html", "classmomentum_1_1SubsetGaussNewtonSolverT" ],
       [ "TaperedCapsuleT", "structmomentum_1_1TaperedCapsuleT.html", "structmomentum_1_1TaperedCapsuleT" ],
+      [ "TextureView", "structmomentum_1_1TextureView.html", "structmomentum_1_1TextureView" ],
       [ "TrackingConfig", "structmomentum_1_1TrackingConfig.html", "structmomentum_1_1TrackingConfig" ],
       [ "TransformT", "structmomentum_1_1TransformT.html", "structmomentum_1_1TransformT" ],
       [ "TrustRegionQROptions", "structmomentum_1_1TrustRegionQROptions.html", "structmomentum_1_1TrustRegionQROptions" ],

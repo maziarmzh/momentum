@@ -26,6 +26,7 @@ var hierarchy =
     [ "rerun::CollectionAdapter< Color, std::vector< Eigen::Vector3< uint8_t > > >", "structrerun_1_1CollectionAdapter_3_01Color_00_01std_1_1vector_3_01Eigen_1_1Vector3_3_01uint8__t_01_4_01_4_01_4.html", null ],
     [ "rerun::CollectionAdapter< TElement, std::vector< Eigen::Vector3< T > > >", "structrerun_1_1CollectionAdapter_3_01TElement_00_01std_1_1vector_3_01Eigen_1_1Vector3_3_01T_01_4_01_4_01_4.html", null ],
     [ "rerun::CollectionAdapter< TElement, std::vector< Eigen::Vector4< T > > >", "structrerun_1_1CollectionAdapter_3_01TElement_00_01std_1_1vector_3_01Eigen_1_1Vector4_3_01T_01_4_01_4_01_4.html", null ],
+    [ "momentum::CollisionDebugEntryT< T >", "structmomentum_1_1CollisionDebugEntryT.html", null ],
     [ "momentum::CollisionGeometryStateT< T >", "structmomentum_1_1CollisionGeometryStateT.html", null ],
     [ "momentum::CollisionErrorFunctionStatelessT< T >::CollisionPairInfo", "structmomentum_1_1CollisionErrorFunctionStatelessT_1_1CollisionPairInfo.html", null ],
     [ "momentum::CollisionErrorFunctionT< T >::CollisionPairInfo", "structmomentum_1_1CollisionErrorFunctionT_1_1CollisionPairInfo.html", null ],
@@ -60,6 +61,7 @@ var hierarchy =
       [ "momentum::ModelParametersT< T >", "structmomentum_1_1ModelParametersT.html", null ]
     ] ],
     [ "momentum::ErrorFunctionDerivativesT< T >", "structmomentum_1_1ErrorFunctionDerivativesT.html", null ],
+    [ "momentum::FbxBuilder", "classmomentum_1_1FbxBuilder.html", null ],
     [ "momentum::FbxCoordSystemInfo", "structmomentum_1_1FbxCoordSystemInfo.html", null ],
     [ "momentum::FileSaveOptions", "structmomentum_1_1FileSaveOptions.html", null ],
     [ "momentum::FullyDifferentiableSkeletonErrorFunctionT< T >", "classmomentum_1_1FullyDifferentiableSkeletonErrorFunctionT.html", [
@@ -81,12 +83,14 @@ var hierarchy =
     [ "momentum::GloveOffset", "structmomentum_1_1GloveOffset.html", null ],
     [ "momentum::GloveSensorObservation", "structmomentum_1_1GloveSensorObservation.html", null ],
     [ "momentum::GltfBuilder", "classmomentum_1_1GltfBuilder.html", null ],
+    [ "momentum::FbxBuilder::Impl", "structmomentum_1_1FbxBuilder_1_1Impl.html", null ],
     [ "momentum::GltfBuilder::Impl", "structmomentum_1_1GltfBuilder_1_1Impl.html", null ],
     [ "momentum::InverseParameterTransformT< T >", "structmomentum_1_1InverseParameterTransformT.html", null ],
     [ "momentum::IOOptions", "structmomentum_1_1IOOptions.html", null ],
     [ "std::istream", null, [
       [ "momentum::ispanstream", "structmomentum_1_1ispanstream.html", null ]
     ] ],
+    [ "momentum::fbx_internal::JointCurveSetup", "structmomentum_1_1fbx__internal_1_1JointCurveSetup.html", null ],
     [ "momentum::JointStateT< T >", "structmomentum_1_1JointStateT.html", null ],
     [ "momentum::JointT< T >", "structmomentum_1_1JointT.html", null ],
     [ "momentum::JointToJointDistanceConstraintT< T >", "structmomentum_1_1JointToJointDistanceConstraintT.html", null ],
@@ -105,6 +109,7 @@ var hierarchy =
     [ "momentum::LowRankCovarianceMatrixT< T >", "classmomentum_1_1LowRankCovarianceMatrixT.html", null ],
     [ "momentum::Marker", "structmomentum_1_1Marker.html", null ],
     [ "momentum::MarkerSequence", "structmomentum_1_1MarkerSequence.html", null ],
+    [ "momentum::fbx_internal::MeshBlendShapeResult", "structmomentum_1_1fbx__internal_1_1MeshBlendShapeResult.html", null ],
     [ "momentum::MeshStateT< T >", "structmomentum_1_1MeshStateT.html", null ],
     [ "momentum::MeshT< T >", "structmomentum_1_1MeshT.html", null ],
     [ "momentum::ModelOptions", "structmomentum_1_1ModelOptions.html", null ],
@@ -130,6 +135,7 @@ var hierarchy =
     [ "momentum::ProjectionConstraintT< T >", "structmomentum_1_1ProjectionConstraintT.html", null ],
     [ "momentum::Random< Generator_ >", "classmomentum_1_1Random.html", null ],
     [ "momentum::AlignedAllocator< T, Alignment >::rebind< U >", "structmomentum_1_1AlignedAllocator_1_1rebind.html", null ],
+    [ "momentum::RegionColorsView", "structmomentum_1_1RegionColorsView.html", null ],
     [ "momentum::ResizeableMatrix< T >", "classmomentum_1_1ResizeableMatrix.html", null ],
     [ "momentum::RigidTransformNodeResult", "structmomentum_1_1RigidTransformNodeResult.html", null ],
     [ "momentum::SDFColliderT< S >", "structmomentum_1_1SDFColliderT.html", null ],
@@ -222,6 +228,7 @@ var hierarchy =
       [ "momentum::VertexSDFErrorFunctionT< T >", "classmomentum_1_1VertexSDFErrorFunctionT.html", null ],
       [ "momentum::VertexVertexDistanceErrorFunctionT< T >", "classmomentum_1_1VertexVertexDistanceErrorFunctionT.html", null ]
     ] ],
+    [ "momentum::fbx_internal::SkeletonNodeResult", "structmomentum_1_1fbx__internal_1_1SkeletonNodeResult.html", null ],
     [ "momentum::SkeletonStateT< T >", "structmomentum_1_1SkeletonStateT.html", null ],
     [ "momentum::SkeletonStateT< float >", "structmomentum_1_1SkeletonStateT.html", null ],
     [ "momentum::SkeletonT< T >", "structmomentum_1_1SkeletonT.html", null ],
@@ -263,6 +270,7 @@ var hierarchy =
       [ "momentum::spanstreambuf", "structmomentum_1_1spanstreambuf.html", null ]
     ] ],
     [ "momentum::TaperedCapsuleT< S >", "structmomentum_1_1TaperedCapsuleT.html", null ],
+    [ "momentum::TextureView", "structmomentum_1_1TextureView.html", null ],
     [ "momentum::TransformT< T >", "structmomentum_1_1TransformT.html", null ],
     [ "momentum::TransformT< float >", "structmomentum_1_1TransformT.html", null ],
     [ "momentum::TransformT< S >", "structmomentum_1_1TransformT.html", null ],
