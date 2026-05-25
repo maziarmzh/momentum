@@ -15,14 +15,15 @@ var hierarchy =
     [ "momentum::BoneVertexRange", "structmomentum_1_1BoneVertexRange.html", null ],
     [ "momentum::BoneWeightT< T >", "structmomentum_1_1BoneWeightT.html", null ],
     [ "momentum::CameraIntrinsicsMapping< T >", "structmomentum_1_1CameraIntrinsicsMapping.html", null ],
+    [ "momentum::CameraKeypointData", "structmomentum_1_1CameraKeypointData.html", null ],
+    [ "momentum::CameraVertexProjectionDataT< T >", "structmomentum_1_1CameraVertexProjectionDataT.html", null ],
     [ "momentum::CandidateTriangle", "structmomentum_1_1CandidateTriangle.html", null ],
     [ "momentum::CenterOfMassConstraintT< T >", "structmomentum_1_1CenterOfMassConstraintT.html", null ],
+    [ "momentum::Character", "structmomentum_1_1Character.html", null ],
     [ "momentum::GltfBuilder::Impl::CharacterData", "structmomentum_1_1GltfBuilder_1_1Impl_1_1CharacterData.html", null ],
     [ "momentum::CharacterParametersT< T >", "structmomentum_1_1CharacterParametersT.html", null ],
     [ "momentum::CharacterParametersT< float >", "structmomentum_1_1CharacterParametersT.html", null ],
     [ "momentum::CharacterStateT< T >", "structmomentum_1_1CharacterStateT.html", null ],
-    [ "momentum::CharacterT< T >", "structmomentum_1_1CharacterT.html", null ],
-    [ "momentum::CharacterT< float >", "structmomentum_1_1CharacterT.html", null ],
     [ "rerun::CollectionAdapter< Color, std::vector< Eigen::Vector3< uint8_t > > >", "structrerun_1_1CollectionAdapter_3_01Color_00_01std_1_1vector_3_01Eigen_1_1Vector3_3_01uint8__t_01_4_01_4_01_4.html", null ],
     [ "rerun::CollectionAdapter< TElement, std::vector< Eigen::Vector3< T > > >", "structrerun_1_1CollectionAdapter_3_01TElement_00_01std_1_1vector_3_01Eigen_1_1Vector3_3_01T_01_4_01_4_01_4.html", null ],
     [ "rerun::CollectionAdapter< TElement, std::vector< Eigen::Vector4< T > > >", "structrerun_1_1CollectionAdapter_3_01TElement_00_01std_1_1vector_3_01Eigen_1_1Vector4_3_01T_01_4_01_4_01_4.html", null ],
@@ -96,6 +97,7 @@ var hierarchy =
     [ "momentum::JointToJointDistanceConstraintT< T >", "structmomentum_1_1JointToJointDistanceConstraintT.html", null ],
     [ "momentum::JointToJointOrientationDataT< T >", "structmomentum_1_1JointToJointOrientationDataT.html", null ],
     [ "momentum::JointToJointPositionDataT< T >", "structmomentum_1_1JointToJointPositionDataT.html", null ],
+    [ "momentum::KeypointObservation", "structmomentum_1_1KeypointObservation.html", null ],
     [ "momentum::LimitData", "unionmomentum_1_1LimitData.html", null ],
     [ "momentum::LimitEllipsoid", "structmomentum_1_1LimitEllipsoid.html", null ],
     [ "momentum::LimitHalfPlane", "structmomentum_1_1LimitHalfPlane.html", null ],
@@ -192,6 +194,7 @@ var hierarchy =
         [ "momentum::VertexProjectionErrorFunctionT< T >", "classmomentum_1_1VertexProjectionErrorFunctionT.html", null ]
       ] ],
       [ "momentum::CameraProjectionErrorFunctionT< T >", "classmomentum_1_1CameraProjectionErrorFunctionT.html", null ],
+      [ "momentum::CameraVertexProjectionErrorFunctionT< T >", "classmomentum_1_1CameraVertexProjectionErrorFunctionT.html", null ],
       [ "momentum::CenterOfMassErrorFunctionT< T >", "classmomentum_1_1CenterOfMassErrorFunctionT.html", null ],
       [ "momentum::CollisionErrorFunctionStatelessT< T >", "classmomentum_1_1CollisionErrorFunctionStatelessT.html", null ],
       [ "momentum::CollisionErrorFunctionT< T >", "classmomentum_1_1CollisionErrorFunctionT.html", null ],
@@ -217,7 +220,7 @@ var hierarchy =
       [ "momentum::ProjectionErrorFunctionT< T >", "classmomentum_1_1ProjectionErrorFunctionT.html", [
         [ "momentum::FullyDifferentiableProjectionErrorFunctionT< T >", "classmomentum_1_1FullyDifferentiableProjectionErrorFunctionT.html", null ]
       ] ],
-      [ "momentum::SDFCollisionErrorFunctionT< T >", "classmomentum_1_1SDFCollisionErrorFunctionT.html", null ],
+      [ "momentum::SDFCollisionErrorFunctionT< T, SdfColliderType >", "classmomentum_1_1SDFCollisionErrorFunctionT.html", null ],
       [ "momentum::SkinnedLocatorErrorFunctionT< T >", "classmomentum_1_1SkinnedLocatorErrorFunctionT.html", null ],
       [ "momentum::SkinnedLocatorTriangleErrorFunctionT< T >", "classmomentum_1_1SkinnedLocatorTriangleErrorFunctionT.html", null ],
       [ "momentum::StateErrorFunctionT< T >", "classmomentum_1_1StateErrorFunctionT.html", [
@@ -251,7 +254,10 @@ var hierarchy =
       ] ],
       [ "momentum::GradientDescentSolverOptions", "structmomentum_1_1GradientDescentSolverOptions.html", null ],
       [ "momentum::MultiposeSolverOptions", "structmomentum_1_1MultiposeSolverOptions.html", null ],
-      [ "momentum::SequenceSolverOptions", "structmomentum_1_1SequenceSolverOptions.html", null ],
+      [ "momentum::SequenceSolverOptionsBase", "structmomentum_1_1SequenceSolverOptionsBase.html", [
+        [ "momentum::SequenceCholeskySolverOptions", "structmomentum_1_1SequenceCholeskySolverOptions.html", null ],
+        [ "momentum::SequenceSolverOptions", "structmomentum_1_1SequenceSolverOptions.html", null ]
+      ] ],
       [ "momentum::SparseGaussNewtonSolverOptions", "structmomentum_1_1SparseGaussNewtonSolverOptions.html", null ],
       [ "momentum::TrustRegionQROptions", "structmomentum_1_1TrustRegionQROptions.html", null ]
     ] ],
@@ -260,7 +266,10 @@ var hierarchy =
       [ "momentum::GaussNewtonSolverT< T >", "classmomentum_1_1GaussNewtonSolverT.html", null ],
       [ "momentum::GradientDescentSolverT< T >", "classmomentum_1_1GradientDescentSolverT.html", null ],
       [ "momentum::MultiposeSolverT< T >", "classmomentum_1_1MultiposeSolverT.html", null ],
-      [ "momentum::SequenceSolverT< T >", "classmomentum_1_1SequenceSolverT.html", null ],
+      [ "momentum::SequenceSolverBaseT< T >", "classmomentum_1_1SequenceSolverBaseT.html", [
+        [ "momentum::SequenceCholeskySolverT< T >", "classmomentum_1_1SequenceCholeskySolverT.html", null ],
+        [ "momentum::SequenceSolverT< T >", "classmomentum_1_1SequenceSolverT.html", null ]
+      ] ],
       [ "momentum::SparseGaussNewtonSolverT< T >", "classmomentum_1_1SparseGaussNewtonSolverT.html", null ],
       [ "momentum::SubsetGaussNewtonSolverT< T >", "classmomentum_1_1SubsetGaussNewtonSolverT.html", null ],
       [ "momentum::TrustRegionQRT< T >", "classmomentum_1_1TrustRegionQRT.html", null ]
